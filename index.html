@@ -6,9 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Helluva Smell - Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css">
+
 </head>
 
 <body>
+
+
+
+    <section class="w-full px-8 text-gray-700 bg-white" {!! $attributes ?? '' !!}>
+        <div class="container flex flex-col flex-wrap items-center justify-between py-5 mx-auto md:flex-row max-w-7xl">
+            <div class="relative flex flex-col md:flex-row">
+                <a href="https://helluvasmell.com"
+                    class="flex items-center mb-5 font-medium text-gray-900 lg:w-auto lg:items-center lg:justify-center md:mb-0">
+                    <span class="mx-auto text-xl font-black leading-none text-gray-900 select-none">Helluva<span
+                            class="text-red-600" data-primary="indigo-600"> Smell</span></span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!--Dash for different cats-->
+
     <div id="my-categories-82319753"></div>
     <div>
         <script data-cfasync="false" type="text/javascript"
@@ -16,6 +42,9 @@
             charset="utf-8"></script>
         <script type="text/javascript"> xCategoriesV2("id=my-categories-82319753"); </script>
     </div>
+
+    <!--Cart Below-->
+
     <div class="ec-cart-widget"></div>
     <div>
         <script data-cfasync="false" type="text/javascript"
@@ -23,6 +52,9 @@
             charset="utf-8"></script>
         <script type="text/javascript">Ecwid.init();</script>
     </div>
+
+    <!--Search Bar-->
+
     <div id="my-search-82319753"></div>
     <div>
         <script data-cfasync="false" type="text/javascript"
@@ -30,6 +62,9 @@
             charset="utf-8"></script>
         <script type="text/javascript"> xSearch("id=my-search-82319753"); </script>
     </div>
+
+    <!--Products-->
+
     <div>
         <script data-cfasync="false" type="text/javascript"
             src="https://app.ecwid.com/script.js?82319753&data_platform=code&data_date=2022-11-10"
@@ -40,6 +75,8 @@
 
 
 </body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.8.0/alpine.js"></script>
 
 </html>
 <div id="my-store-82319753"></div>
